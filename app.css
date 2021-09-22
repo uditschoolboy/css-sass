@@ -1,0 +1,10 @@
+:root {
+    --blur: 10px;
+    --color: #ffc600;
+}
+
+img {
+    border: 10px solid var(--color);
+    width: 40%;
+    filter: blur(var(--blur));
+}
